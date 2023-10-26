@@ -276,7 +276,7 @@
         font-family:raleway;
         display: flex;
         justify-content: center;
-        align-items: center;
+        text-align: center;
         padding: 20px;
     }
 }
@@ -316,3 +316,29 @@
         }
     }
 }
+
+.grilla-galeria{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: 500px; 
+    div{
+        img{ 
+            Width: 100%;
+            Height: 100%;
+            Object-fit:cover;
+            box-shadow: 8px 10px 31px -4px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 8px 10px 31px -4px rgba(0,0,0,0.75);
+            -moz-box-shadow: 8px 10px 31px -4px rgba(0,0,0,0.75);
+
+        }
+    }
+}
+
+.imageng3{
+    grid-column: span 2;
+
+}
+

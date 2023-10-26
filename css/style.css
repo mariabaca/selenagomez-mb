@@ -243,7 +243,7 @@ a {
 .grid-galeria div img{
     Width: 100%;
     Height: 100%;
-    Object-fit: cover;
+    Object-fit:cover;
     box-shadow: 8px 10px 31px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 8px 10px 31px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 8px 10px 31px -4px rgba(0,0,0,0.75);
@@ -313,12 +313,13 @@ form div label input{
 }
 
 .escucha{
-    display: flex;
+    display:flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding:5px;
     margin: 10px;
-
 }
+
 
 .escucha div{
     width:250px;
@@ -474,7 +475,29 @@ form div label input{
     margin: 10px;
 }
 
+.grilla-galeria{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: 500px;  
 
+}
+
+.grilla-galeria div img{
+    Width: 100%;
+    Height: 100%;
+    Object-fit:cover;
+    box-shadow: 8px 10px 31px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 10px 31px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 10px 31px -4px rgba(0,0,0,0.75);
+}
+
+
+.imageng3{
+    grid-column: span 2;
+}
 
 
 /*!-----------FOOTER-----------*/
@@ -522,6 +545,9 @@ footer{
     .grid-item{
         Grid-column: span 1;
         Grid-row: span 1;
+    }
+    .grilla-galeria{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -579,5 +605,13 @@ footer{
         width: 90%;
         height: 80px;
 
+    }
+    .filmytv{
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 10px;
+        }
     }
 }
