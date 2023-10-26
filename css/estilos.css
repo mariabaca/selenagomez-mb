@@ -20,7 +20,7 @@ header {
     header nav ul li a {
       color: #494949;
       font-weight: bolder;
-      font-family: raleway;
+      font-family: raleway !important;
       text-decoration: none;
       margin: 20px;
       text-align: center; }
@@ -140,3 +140,213 @@ header {
 
 .imagen-9 {
   grid-column: span 2; }
+
+/*!-----------CONTACTO-----------*/
+.contact h2 {
+  color: #efdbff;
+  font: size 200px;
+  font-family: raleway;
+  text-align: center;
+  background-color: #69012d;
+  padding: 15px;
+  margin-bottom: 10px; }
+
+.contactanos {
+  background-image: url(../img/fondodestellos.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: larger;
+  font-family: raleway; }
+
+/*!-----------MUSICA----------*/
+.plataforma h2 {
+  color: #efdbff;
+  font: size 200px;
+  font-family: raleway;
+  text-align: center;
+  background-color: #69012d;
+  padding: 15px;
+  margin-bottom: 10px; }
+
+.escucha {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  margin: 10px; }
+  .escucha div {
+    width: 250px;
+    height: 350px;
+    border: 3px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 8px 10px 31px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 8px 10px 31px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 10px 31px -4px rgba(0, 0, 0, 0.75); }
+    .escucha div img {
+      width: 200px;
+      height: 200px;
+      margin: 10px; }
+    .escucha div h3 {
+      font-size: 20px;
+      margin: 20px; }
+    .escucha div a {
+      text-decoration: none;
+      color: #efdbff;
+      background-color: #69012d;
+      padding: 5px;
+      margin: 10px; }
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  margin: 10px; }
+  .links div {
+    width: 250px;
+    height: 350px;
+    border: 3px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 8px 10px 31px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 8px 10px 31px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 10px 31px -4px rgba(0, 0, 0, 0.75); }
+    .links div img {
+      width: 150px;
+      height: 150px;
+      margin: 10px; }
+    .links div h4 {
+      font-size: 20px;
+      margin: 20px; }
+    .links div a {
+      text-decoration: none;
+      color: #efdbff;
+      background-color: #69012d;
+      padding: 5px;
+      margin: 10px; }
+
+/*!-----------FILM Y TV----------*/
+.filmytv {
+  width: 100%;
+  height: 55vh;
+  color: rgba(255, 221, 244, 0.856);
+  background-color: #69012d;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .filmytv h2 {
+    font-size: 60px;
+    font-family: raleway;
+    text-align: center; }
+  .filmytv p {
+    font-size: 20px;
+    font-family: raleway;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; }
+
+.mira {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  margin: 10px; }
+  .mira div {
+    width: 250px;
+    height: 350px;
+    border: 3px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 8px 10px 31px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 8px 10px 31px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 10px 31px -4px rgba(0, 0, 0, 0.75); }
+    .mira div img {
+      width: 150px;
+      height: 120px;
+      margin: 10px; }
+    .mira div h3 {
+      font-size: 20px;
+      margin: 20px; }
+    .mira div a {
+      text-decoration: none;
+      color: #efdbff;
+      background-color: #69012d;
+      padding: 5px;
+      margin: 10px; }
+
+footer {
+  background-color: rgba(255, 221, 244, 0.856);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer .pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; }
+    footer .pie div img {
+      width: 100%;
+      height: 100px; }
+    footer .pie div a img {
+      width: 30px;
+      height: 30px;
+      margin: 10px; }
+
+@media screen and (max-width: 900px) {
+  .grid-galeria {
+    grid-template-columns: 1fr; }
+  .grid-item {
+    Grid-column: span 1;
+    Grid-row: span 1; } }
+
+@media screen and (max-width: 890px) {
+  header {
+    position: static;
+    flex-direction: column; }
+  header img {
+    height: 20%;
+    width: 150px; }
+  header nav ul li a {
+    margin: 15px; }
+  .hero h2 {
+    Font-size: 60px; }
+  .hero p {
+    Font-size: 20px; } }
+
+@media screen and (max-width: 570px) {
+  header {
+    position: static; }
+  header nav ul {
+    flex-direction: column;
+    align-items: center; }
+  Header nav ul li {
+    Margin: 0; }
+  .hero {
+    background-size: cover; }
+  .hero h2 {
+    Font-size: 45px; }
+  .hero p {
+    Font-size: 13px; } }
+
+@media screen and (max-width: 450px) {
+  .hero h2 {
+    Font-size: 30px; }
+  footer div img {
+    width: 90%;
+    height: 80px; } }
