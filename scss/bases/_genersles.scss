@@ -1,0 +1,36 @@
+header .navbar navbar-expand-lg{
+    background-color:rgba(243, 194, 227, 0.856);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    z-index: 1;
+    img{
+        height: 50%;
+        width: 300px;
+
+    }
+    nav{
+        ul{
+            list-style: none;
+        color: rgb(82, 82, 82);
+        text-align: left;
+        font-weight: lighter;
+        text-decoration: none;
+        display: flex;
+            li{
+                a{color: rgb(73, 73, 73);
+                    font-weight: bolder;
+                    font-family:raleway !important;
+                    text-decoration: none;
+                    margin: 20px;
+                    text-align: center;
+
+                }
+            }
+        }
+        
+    }
+}

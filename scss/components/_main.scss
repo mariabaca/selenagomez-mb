@@ -179,9 +179,9 @@
 }
 
 .escucha{
-    
-    display: flex;
+    display:flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding:5px;
     margin: 10px;
     div{
@@ -218,6 +218,7 @@
 .links{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding:5px;
     margin: 10px;
     div{
@@ -263,6 +264,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
+    
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -284,6 +286,7 @@
 .mira{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding:5px;
     margin: 10px;
     div{

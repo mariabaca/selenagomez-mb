@@ -6,6 +6,13 @@
         Grid-column: span 1;
         Grid-row: span 1;
     }
+    .grilla-galeria{
+        grid-template-columns: 1fr;
+    }
+    .imageng3{
+        Grid-column: span 1;
+        Grid-row: span 1;
+    }
 }
 
 @media screen and (max-width: 890px){
@@ -26,30 +33,46 @@
     .hero p{
         Font-size: 20px;
     }
+    .filmytv h2{
+        font-size: 40px;
+    }
+    .filmytv p{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 570px){
     header{
     position: static;
-}
+    }
     header nav ul{
     flex-direction: column; 
     align-items: center; 
-}
+    }
 
     Header nav ul li{
     Margin: 0;
-}
+    }
     .hero{
         background-size: cover;
     }
     .hero h2{
     Font-size: 45px;
-}
+    }
     .hero p{
     Font-size: 13px;
+    }
+    .filmytv h2{
+        font-size: 30px;
+    }
+    .filmytv p{
+        font-size: 10px;
+    }
 }
-}
+
+
+
+
 
 @media screen and (max-width: 450px){
     .hero h2{
@@ -58,5 +81,13 @@
     footer div img{
         width: 90%;
         height: 80px;
+
+    }
+    .filmytv h2{
+        font-size: 20px;
+        
+    }
+    .filmytv p{
+        font-size: 8px;
     }
 }
